@@ -9,7 +9,7 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Variables definidas por el Usuario" enabled="true">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <stringProp name="TestPlan.user_define_classpath">C:\Users\famil\Downloads\sqljdbc_9.2\enu\mssql-jdbc-9.2.1.jre8.jar,C:\Users\famil\Downloads\forge-1.12.2-14.23.5.2847-installer (8)(1).jar</stringProp>
+      <stringProp name="TestPlan.user_define_classpath">C:\Users\PC\Desktop\AA_Prueba_JMeter\sqljdbc_9.2\enu\mssql-jdbc-9.2.1.jre8.jar</stringProp>
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Grupo de Hilos" enabled="true">
@@ -33,13 +33,13 @@
         <hashTree>
           <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Petición JDBC" enabled="true">
             <stringProp name="dataSource">mysql_conexion</stringProp>
-            <stringProp name="queryType">Commit</stringProp>
+            <stringProp name="queryType">Prepared Update Statement</stringProp>
             <stringProp name="query">declare @habits bigint
 declare @userid bigint
 
-set @habits = FLOOR(RAND()*20)
+set @habits = CEILING(RAND()*25)
 
-set @userid = FLOOR(RAND()*15)
+set @userid = CEILING(RAND()*10000)
 
 insert into dbo.Habits_History(habitid,userid,posttime,checkin,geoPosition,computername,ipAddress,[checksum])
 values
@@ -142,10 +142,10 @@ values
         <boolProp name="keepAlive">true</boolProp>
         <stringProp name="connectionAge">5000</stringProp>
         <stringProp name="checkQuery"></stringProp>
-        <stringProp name="dbUrl">jdbc:sqlserver://LAPTOP-RHFFFTGS:DatabaseName=ChangeIt</stringProp>
+        <stringProp name="dbUrl">jdbc:sqlserver://localhost:1433;databaseName=pruebas</stringProp>
         <stringProp name="driver">com.microsoft.sqlserver.jdbc.SQLServerDriver</stringProp>
-        <stringProp name="username">us</stringProp>
-        <stringProp name="password">1234567890</stringProp>
+        <stringProp name="username">sa</stringProp>
+        <stringProp name="password">123456</stringProp>
         <stringProp name="connectionProperties"></stringProp>
       </JDBCDataSource>
       <hashTree/>
