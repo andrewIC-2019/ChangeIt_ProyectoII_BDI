@@ -1,3 +1,4 @@
+use ChangeIt
 -- ===========================================
 -- ===========================================
 
@@ -17,10 +18,10 @@ AS
 	DECLARE @theGender AS TINYINT
 	DECLARE @theMail AS NVARCHAR(128)
 
-	INSERT INTO @allNames VALUES (1,'Peter'),(2,'Jimena'),(1,'Randall'),(1,'Tommy'),(2,'Mariana'),(2,'Olga'),
-	(2,'Danna'), (1,'Ali'), (2,'Su'), (2,'Traicy'), (1,'Sergio'), (2,'Kate'), (1,'Yoshiro'), (1, 'Luca'),
-	(2, 'Bonnye'), (1,'Pierre'), (1, 'Jesus'), (2, 'Yassar'), (2,'Anna'), (1,'Xiao'), (2, 'Nathalie'), (1,'Yuri'), 
-	(2, 'Suki'), (1,'Albert')
+	INSERT INTO @allNames VALUES (7,'Peter'),(8,'Jimena'),(7,'Randall'),(7,'Tommy'),(8,'Mariana'),(8,'Olga'),
+	(8,'Danna'), (7,'Ali'), (8,'Su'), (8,'Traicy'), (7,'Sergio'), (7,'Kate'), (7,'Yoshiro'), (7, 'Luca'),
+	(8, 'Bonnye'), (7,'Pierre'), (7, 'Jesus'), (8, 'Yassar'), (8,'Anna'), (7,'Xiao'), (8, 'Nathalie'), (7,'Yuri'), 
+	(8, 'Suki'), (7,'Albert')
 
 	INSERT INTO @allLastname (oneLastname) VALUES 
 	('Fonseca'), ('Green'), ('Chang'), ('Lee'), ('Valvoa'), ('Honda'), ('Markov'), ('Diaz'),
@@ -51,7 +52,7 @@ AS
 			INSERT INTO dbo.Users (nationalId, [name], lastname, secondLastname, birthday, genderId,
 			mail, addressId, [enabled])
 			VALUES
-			(@theNatId, @theName, @lastName, @lastName2, @theBirthday, @theGender, @theMail, 1, 1)
+			(@theNatId, @theName, @lastName, @lastName2, @theBirthday, @theGender, @theMail, 4, 1)
 
 			SET @amount = @amount-1
 		END
@@ -60,6 +61,7 @@ AS
 
 GO
 
-EXEC dbo.Insert_Users 5
 
+EXEC dbo.Insert_Users 15
+select * from dbo.Users
 SELECT * FROM dbo.Users WHERE CONCAT(name,' ',lastname,' ',secondLastname) = 'Anna Fuentes Coronado' ;

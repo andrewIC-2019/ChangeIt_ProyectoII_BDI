@@ -1,3 +1,4 @@
+Use prueba
 INSERT INTO dbo.Social_Medias ([name], [url], support, iconUrl, [enabled])
 VALUES
 ('Facebook', 'www.facebook.com/login', 'www.facebook.com/support', 'www.img.com/facelogo', 1),
@@ -9,6 +10,7 @@ VALUES
 INSERT INTO dbo.Genders ([name])
 VALUES
 ('Male'), ('Female'), ('Other')
+select * from Genders
 
 INSERT INTO dbo.Countries ([name], approxPopulation) 
 VALUES
@@ -27,6 +29,6 @@ SELECT * FROM dbo.Cities
 SELECT * FROM dbo.Zones
 
 INSERT INTO dbo.Address (countryId, cityId, zoneId) VALUES
-(1, 2, 1)
+(1, 2, 2)
 
 SELECT * FROM dbo.Address

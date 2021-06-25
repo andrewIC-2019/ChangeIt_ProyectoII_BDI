@@ -1,4 +1,4 @@
-USE [pruebas]
+USE [prueba]
 GO
 /****** Object:  Table [dbo].[Address]    Script Date: 24/6/2021 16:41:24 ******/
 SET ANSI_NULLS ON
