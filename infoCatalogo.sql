@@ -80,7 +80,7 @@ VALUES
 
 INSERT INTO dbo.Log_Entity_Types ([name])
 VALUES
-('user'), ('invoice'), ('sponsor'), ('renumeration') ('commerce'), ('post')
+('user'), ('invoice'), ('sponsor'), ('renumeration'), ('commerce'), ('post')
 
 INSERT INTO dbo.Severity ([name])
 VALUES
@@ -114,7 +114,7 @@ VALUES
 -- Ads
 -- ------------------------------
 
-INSERT INTO dbo.Ads_Objectives ([name], [description])
+INSERT INTO dbo.Ads_Objetives ([name], [description])
 VALUES
 ('Traffic','Improve the traffic in the app'),
 ('Interaction','Know the amount of views, visit, etc'),
