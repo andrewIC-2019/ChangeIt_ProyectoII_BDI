@@ -32,6 +32,7 @@ AS
 	DECLARE @ActionType as SMALLINT
 	DECLARE @UserId as BIGINT
 	DECLARE @SHA as VARBINARY(300)
+	DECLARE @HABITID as BIGINT
 
 	
 	INSERT INTO @habtis (namehabit) VALUES 
@@ -55,7 +56,13 @@ AS
 			insert into dbo.Habits([name],[description],iconURL,habitActionTypeid,releasedDate,userId,[checksum])
 			values
 			(@habitname,'Datos de habitos nuevos',@iconurl,@ActionType,DATEADD(month,5,'2020/08/25'),@UserId,HASHBYTES('SHA2_256',CONCAT(@habitname,'Datos de habitos nuevos',@iconurl,@ActionType,DATEADD(month,5,'2020/08/25'),@UserId)))
+			
+			SET @HABITID = (select top 1 habitId from (SELECT habitId from dbo.habits ) ultimo order by habitId desc)
 
+			insert into dbo.Rules_Per_Habit(habitId,ruleId,quantity)
+			values
+			(@HABITID,CEILING(RAND()*33),1)
+			
 			SET @amount = @amount - 1
 
 		END
