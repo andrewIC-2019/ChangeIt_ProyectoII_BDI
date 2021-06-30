@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ChangeIt_Integration", "ChangeIt_Integration.dtproj", "{9ED729A9-945D-4DA3-8D1F-5CAC9AE311C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ED729A9-945D-4DA3-8D1F-5CAC9AE311C6}.Development|Default.ActiveCfg = Development
+		{9ED729A9-945D-4DA3-8D1F-5CAC9AE311C6}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7DE027B-FCA1-4FCB-9DB4-B2BF146A61EB}
+	EndGlobalSection
+EndGlobal
