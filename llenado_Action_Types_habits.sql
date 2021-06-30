@@ -44,3 +44,5 @@ AS
 GO
 
 EXEC dbo.Insert_Actions_Types 30
+
+select * from dbo.Habits_Actions_Types

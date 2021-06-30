@@ -31,6 +31,7 @@ AS
 	DECLARE @iconurl AS VARCHAR(128)
 	DECLARE @ActionType as SMALLINT
 	DECLARE @UserId as BIGINT
+	DECLARE @SHA as VARBINARY(300)
 
 	
 	INSERT INTO @habtis (namehabit) VALUES 
@@ -48,12 +49,12 @@ AS
 	
 			SET @habitname = (SELECT TOP 1 namehabit FROM @habtis ORDER BY NEWID())
 			SET @iconurl = (SELECT TOP 1 URLDirection FROM @url ORDER BY NEWID())
-			SET @ActionType = FLOOR(RAND()*5)
-			SET @UserId = FLOOR(RAND()*50)
-
-			insert into dbo.Habits([name],[description],iconURL,habitActionTypeid,releasedDate)
+			SET @ActionType = FLOOR(RAND()*38)
+			SET @UserId = FLOOR(72050+RAND()*100000)
+			
+			insert into dbo.Habits([name],[description],iconURL,habitActionTypeid,releasedDate,userId,[checksum])
 			values
-			(@habitname,'Datos de habitos nuevos',@iconurl,@ActionType,DATEADD(month,5,'2020/08/25'))
+			(@habitname,'Datos de habitos nuevos',@iconurl,@ActionType,DATEADD(month,5,'2020/08/25'),@UserId,HASHBYTES('SHA2_256',CONCAT(@habitname,'Datos de habitos nuevos',@iconurl,@ActionType,DATEADD(month,5,'2020/08/25'),@UserId)))
 
 			SET @amount = @amount - 1
 
@@ -62,5 +63,5 @@ AS
 	COMMIT
 
 GO
-select * from dbo.Habits
+
 EXEC dbo.Insert_habits 30

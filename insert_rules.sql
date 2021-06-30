@@ -21,7 +21,6 @@ GO
 DROP PROCEDURE IF EXISTS dbo.Insert_Rules
 
 select * from dbo.Rules
-delete from dbo.Rules
 
 CREATE PROCEDURE dbo.Insert_Rules
 	-- Add the parameters for the stored procedure here

@@ -1,6 +1,6 @@
 -- ===========================================
 -- ===========================================
-
+use ChangeIt
 DROP PROCEDURE IF EXISTS dbo.Insert_Users
 
 CREATE PROCEDURE dbo.Insert_Users

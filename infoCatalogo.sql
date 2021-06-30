@@ -54,26 +54,6 @@ INSERT INTO dbo.Trans_SubType ([name]) VALUES
 INSERT INTO dbo.Sponsor_Types ([name]) VALUES
 ('User'), ('Commerce')
 
--- ----------------------------------
--- Habits
--- ----------------------------------
-
-INSERT INTO dbo.Habits_Actions_Types ([name])
-VALUES
-('recycle'), ('reduce'), ('reuse'), ('donate'), ('influence'),
-('receive'), ('refuse'), ('save'), ('other')
-
-
--- ----------------------------------
--- Rules
--- ----------------------------------
-
-INSERT INTO dbo.Rules ([description], unit)
-VALUES
-('liters of water saved','l'),
-('amount of trees not felled', null),
-('saved sheets of paper', null)
-
 -- -----------------------------------
 -- Logs
 -- -----------------------------------
@@ -148,3 +128,128 @@ INSERT INTO dbo.Entity_Types ([name])
 VALUES
 ('Ad'),('Habit'),('Post'),('Other')
 
+-- ----------------------------
+-- Campaigns
+-- ----------------------------
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('I join1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('I join1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('I join2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('I join2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('I join3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('I join3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Save the turtle1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Save the turtle1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Save the turtle2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Save the turtle2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Save the turtle3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Save the turtle3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Mi nuevo auto1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Mi nuevo auto1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Mi nuevo auto2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Mi nuevo auto2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Mi nuevo auto3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Mi nuevo auto3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('No mas sacarosa1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('No mas sacarosa1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('No mas sacarosa2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('No mas sacarosa2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('No mas sacarosa3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('No mas sacarosa3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('!Energias Renovables!1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('!Energias Renovables!1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('!Energias Renovables!2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('!Energias Renovables!2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('!Energias Renovables!3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('!Energias Renovables!3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('!Otra tortuga!1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('!Otra tortuga!1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('!Otra tortuga!2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('!Otra tortuga!2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('!Otra tortuga!3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('!Otra tortuga!3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Bolsas de tela !Jei!1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Bolsas de tela !Jei!1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Bolsas de tela !Jei!2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Bolsas de tela !Jei!2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('Bolsas de tela !Jei!3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('Bolsas de tela !Jei!3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+--
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('support greenfarms1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('support greenfarms1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('support greenfarms2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('support greenfarms2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('support greenfarms3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('support greenfarms3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('ecofriendly livestock1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('ecofriendly livestock1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('ecofriendly livestock2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('ecofriendly livestock2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('ecofriendly livestock3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('ecofriendly livestock3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('no saturated fat in rivers1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('no saturated fat in rivers1','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('no saturated fat in rivers2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('no saturated fat in rivers2','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+INSERT INTO dbo.Campaigns ([name],[description],conversionValue,lastUpdate,computername,ipAddress,[checksum])
+VALUES
+('no saturated fat in rivers3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810,HASHBYTES('SHA2_256',CONCAT('no saturated fat in rivers3','Evento creado para una campaña que salvara el mundo',FLOOR(RAND()*500),GETDATE(),HOST_NAME(),19216810)))
+
+select * from dbo.Campaigns
