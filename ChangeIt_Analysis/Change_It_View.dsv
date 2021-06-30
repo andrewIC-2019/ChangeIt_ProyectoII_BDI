@@ -1,0 +1,134 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0bced8ed-6112-4ce6-97b2-74847a83d8f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Change_It_View</ID>
+  <Name>Change_It_View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Change_It_Data_ETL</DataSourceID>
+  <Schema>
+    <xs:schema id="Change_It_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Change_It_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="3d14ee96-462d-4e36-a6d1-c9015625d9c3">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_data_dates" msprop:design-time-name="785381d3-4640-42ab-94f6-04cc5cf1efb3" msprop:DbTableName="data_dates" msprop:FriendlyName="data_dates" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dateId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="38410cd3-f9a0-4886-93aa-9819815fda89" msprop:DbColumnName="dateId" msprop:FriendlyName="dateId" type="xs:long" />
+                  <xs:element name="cMonth" msprop:design-time-name="e1880398-4c67-4b43-a1af-d72b7229e9d5" msprop:DbColumnName="cMonth" msprop:FriendlyName="cMonth" type="xs:short" />
+                  <xs:element name="cMonthname" msprop:design-time-name="48e8aa62-47f0-450a-b3a3-c4d37d536d82" msprop:DbColumnName="cMonthname" msprop:FriendlyName="cMonthname" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cYear" msprop:design-time-name="36a7af5c-aca9-46c3-94b1-66f4ecfecedf" msprop:DbColumnName="cYear" msprop:FriendlyName="cYear" type="xs:short" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_data_facts" msprop:design-time-name="64c17384-2aaa-428b-882e-9df12a0901ae" msprop:DbTableName="data_facts" msprop:FriendlyName="data_facts" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="restaurantId" msprop:design-time-name="f9622e0f-ee7c-4c3a-9a64-8c706e7ce587" msprop:DbColumnName="restaurantId" msprop:FriendlyName="restaurantId" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="monto" msprop:design-time-name="dac859fc-72c8-4da7-b9c0-44b2ec26a02f" msprop:DbColumnName="monto" msprop:FriendlyName="monto" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="dateId" msprop:design-time-name="48552f57-b100-49b3-9460-2377507bf176" msprop:DbColumnName="dateId" msprop:FriendlyName="dateId" type="xs:long" minOccurs="0" />
+                  <xs:element name="locationId" msprop:design-time-name="a32e9031-2ca3-4750-9ba3-699aaa9366b8" msprop:DbColumnName="locationId" msprop:FriendlyName="locationId" type="xs:long" minOccurs="0" />
+                  <xs:element name="views" msprop:design-time-name="86f56c57-e26b-46db-95cd-4dd7a7328f27" msprop:DbColumnName="views" msprop:FriendlyName="views" type="xs:int" minOccurs="0" />
+                  <xs:element name="shares" msprop:design-time-name="70646685-3d44-4a1a-879e-2dbb448b476d" msprop:DbColumnName="shares" msprop:FriendlyName="shares" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_data_locations" msprop:design-time-name="99bc44d3-79d7-46da-b872-07b3ca79df96" msprop:DbTableName="data_locations" msprop:FriendlyName="data_locations" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="locationId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3a0c1d37-ff70-4ffd-a035-23b2713ae6c9" msprop:DbColumnName="locationId" msprop:FriendlyName="locationId" type="xs:long" />
+                  <xs:element name="country" msprop:design-time-name="bb88e01c-a9b1-45d7-a00d-a59907a257c9" msprop:DbColumnName="country" msprop:FriendlyName="country" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="city" msprop:design-time-name="6756fb81-13e8-4535-be92-83f705c309ea" msprop:DbColumnName="city" msprop:FriendlyName="city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="zone" msprop:design-time-name="f2037b6d-0e1e-437a-98e2-135e4d1b490f" msprop:DbColumnName="zone" msprop:FriendlyName="zone" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_data_dates" />
+          <xs:field xpath="dateId" />
+        </xs:unique>
+        <xs:unique name="dbo_data_locations_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_data_locations" />
+          <xs:field xpath="locationId" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="data_facts-data_dates" msdata:parent="dbo_data_dates" msdata:child="dbo_data_facts" msdata:parentkey="dateId" msdata:childkey="dateId" />
+          <msdata:Relationship name="data_facts-data_locations" msdata:parent="dbo_data_locations" msdata:child="dbo_data_facts" msdata:parentkey="locationId" msdata:childkey="locationId" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Change_It_View xmlns="" />
+  </Schema>
+</DataSourceView>
