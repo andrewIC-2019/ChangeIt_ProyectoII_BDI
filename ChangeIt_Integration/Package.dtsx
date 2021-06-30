@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{8D1712E5-51B0-4FC0-81CC-F2F5D0829240}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{C15A3020-415A-4CEF-87BE-D2445B787C6F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -180,7 +180,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIP0YCasrCEavYhxFR3gqwgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB6DQeU0j9nI6AjbLB0o83Z307mZjaGzvapbtL9MYvNtQAAAAAOgAAAAAIAACAAAAAf6RbZ5zNK5XoHNay58xP3xahkZz3KSeXb4yPde9pRYBAAAABGV/uPjeMuI7jQ+6s8ELhRQAAAAH/NOFfGDuNWWc2mPst/hMh7cA+fIiFGPgwjlQ42klJzazMd4JMrP60sCfeAHCbG9HnKYeF9RHemhHsy5RrgXYQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIP0YCasrCEavYhxFR3gqwgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC4p68Jy6uB8irpnlmGD7SjLSLWspBdMCZ2KtgGExwlUgAAAAAOgAAAAAIAACAAAABiTGlEbl5mlWDQzzRp/DlsTGK9pEk7Zu3YZKq4tzxBMBAAAACqbfO5V/0X8cxDqVgONFS6QAAAAJ2p+mD7TdATYGRysPvnajh9tQtRnL4H96t9nDcU+XUGGFXotse7fn9CAEnbikR3H7WGAOWxn54c0zPmQeKWnjM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -197,7 +197,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIP0YCasrCEavYhxFR3gqwgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAASa3Wa6qZoglgdoxp3fbt/StQuNix6woUlQMnZtiCkyAAAAAAOgAAAAAIAACAAAADtmE470M5R5ZPU51FyiOrF2l9A1sGSLvMZQiqbTZ5E7RAAAAD+CzN6RbR5F1IZONLJIwdMQAAAAMfWaV1XjR6AUUu+Yv04osWWWRL9r7/ONfwHF6LJLrTe9cnu/Lor6uhyy02u6B5LNcpZ0mUGnNRFaa7w1YC+WJU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIP0YCasrCEavYhxFR3gqwgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACA5Q43GlSTb1dtbIvZniB49DrEKggbYSChmLot7koixQAAAAAOgAAAAAIAACAAAACh/iJ2eFVvVViqdJhuuSLDMLk4H1wTHk51kj6e1MUaXhAAAADhCXWFwuO85nMBdZbdAEAkQAAAAF6+2j2XeiW13AIByEE4upSkUqdckHFGbzmPWtDVImyOkoXDXetMO5rgy8LW0yYMPDCm4ej0MPeIzVNvGcW2l84</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -212,13 +212,1153 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIP0YCasrCEavYhxFR3gqwgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC2VBEJOQ7sL4/qDEo3o9ucBtuBP8Kf0iuk1twOXFL7/gAAAAAOgAAAAAIAACAAAAA9yfzToM0FNmkzzB6UgcTpPIzqrG0WRKi/1c+/jrujfhAAAAAOzQak6LSRHE2I24BFUtRqQAAAAKtxpiPpdNnxgZ+b+daiSpl6yJ8bBO8tdJgv6+ZYdf1gxUUOetvtx/Zg3Tkfn9oX13jx8oTqSG9SJBv9w/tO7AU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIP0YCasrCEavYhxFR3gqwgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAdrTNfCq+fKuce8G10g5SitXYWk7ANzIlC7Kk3BJa+ngAAAAAOgAAAAAIAACAAAAD3JmGOMjlZ69TZ6L/LRVp+Zchja/GaIcHmZ7xEl/iUAxAAAABuqoIS2/LDS8EKRuFBPmjBQAAAAOLm9VKq/bTYdQgWzUSVZCz3Tod2OcTPVhh0wsEiuj15WTxPod9F4Dc7jNepbSwgN1GQGyGWzVDqKtP2d/KuWJA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Load Fechas"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{3592566F-28BB-434F-88EE-9F9E25A0FA65}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load Fechas"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load Fechas\Filtra Dates"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Filtra Dates"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT cMonth, cYear FROM dbo.data_dates</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (SELECT cMonth, cYear FROM dbo.data_dates) [refTable]
+where [refTable].[cMonth] = ? and [refTable].[cYear] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="cMonth" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cYear" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theMonth]};#{Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theYear]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fechas\Filtra Dates.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input].Columns[theYear]"
+                      cachedDataType="i2"
+                      cachedName="theYear"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theYear]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">cYear</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input].Columns[theMonth]"
+                      cachedDataType="i2"
+                      cachedName="theMonth"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theMonth]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">cMonth</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fechas\Filtra Dates.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fechas\Filtra Dates.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Fechas\Filtra Dates.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fechas\Filtra Dates.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Filtra Dates.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Filtra Dates.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Filtra Dates.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fechas\Insert new dates"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+              name="Insert new dates"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The Destination database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."data_dates"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fechas\Insert new dates.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="ADO NET Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].Columns[theMonth]"
+                      cachedDataType="i2"
+                      cachedName="theMonth"
+                      externalMetadataColumnId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].ExternalColumns[cMonth]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theMonth]" />
+                    <inputColumn
+                      refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].Columns[theYear]"
+                      cachedDataType="i2"
+                      cachedName="theYear"
+                      externalMetadataColumnId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].ExternalColumns[cYear]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theYear]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].ExternalColumns[dateId]"
+                      dataType="i8"
+                      name="dateId" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].ExternalColumns[cMonth]"
+                      dataType="i2"
+                      name="cMonth" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].ExternalColumns[cMonthname]"
+                      dataType="wstr"
+                      length="20"
+                      name="cMonthname" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input].ExternalColumns[cYear]"
+                      dataType="i2"
+                      name="cYear" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Fechas\Insert new dates.Outputs[ADO NET Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="ADO NET Destination Error Output"
+                  synchronousInputId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fechas\Insert new dates.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Insert new dates.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Insert new dates.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Insert new dates.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Fechas\Lectura Dates"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="Lectura Dates"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT RestaurantId, theMonth, theYear, Country, Province, City,
+sum(amount) total, sum(views) views, sum(shares) shares FROM
+(
+SELECT RestaurantId, Country, Province, City, CONVERT(SMALLINT, DATEPART(month, date)) theMonth, DATENAME(month, date) TheMonthName,
+CONVERT(SMALLINT, DATEPART(year, date)) theYear, amount, Views, Shares FROM dbo.mongoData
+) general
+GROUP BY RestaurantId, Country, Province, City, general.theYear, general.theMonth
+ORDER BY RestaurantId</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Fechas\Lectura Dates.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[RestaurantId]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[RestaurantId]"
+                      length="200"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[RestaurantId]"
+                      name="RestaurantId"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theMonth]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[theMonth]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theMonth]"
+                      name="theMonth"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theYear]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[theYear]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[theYear]"
+                      name="theYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[Country]"
+                      length="60"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[Province]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[Province]"
+                      length="60"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[Province]"
+                      name="Province"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[City]"
+                      length="60"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[total]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[total]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[total]"
+                      name="total"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[views]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[views]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[views]"
+                      name="views"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[shares]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[shares]"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].Columns[shares]"
+                      name="shares"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[RestaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      name="RestaurantId" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[theMonth]"
+                      dataType="i2"
+                      name="theMonth" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[theYear]"
+                      dataType="i2"
+                      name="theYear" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="60"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[Province]"
+                      dataType="wstr"
+                      length="60"
+                      name="Province" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="60"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[total]"
+                      dataType="cy"
+                      name="total" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[views]"
+                      dataType="i4"
+                      name="views" />
+                    <externalMetadataColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output].ExternalColumns[shares]"
+                      dataType="i4"
+                      name="shares" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[RestaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[RestaurantId]"
+                      name="RestaurantId" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[theMonth]"
+                      dataType="i2"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[theMonth]"
+                      name="theMonth" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[theYear]"
+                      dataType="i2"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[theYear]"
+                      name="theYear" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[Province]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[Province]"
+                      name="Province" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[total]"
+                      dataType="cy"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[total]"
+                      name="total" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[views]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[views]"
+                      name="views" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[shares]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[shares]"
+                      name="shares" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load Fechas.Paths[ADO NET Source Output]"
+              endId="Package\Load Fechas\Filtra Dates.Inputs[Lookup Input]"
+              name="ADO NET Source Output"
+              startId="Package\Load Fechas\Lectura Dates.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Load Fechas.Paths[Lookup No Match Output]"
+              endId="Package\Load Fechas\Insert new dates.Inputs[ADO NET Destination Input]"
+              name="Lookup No Match Output"
+              startId="Package\Load Fechas\Filtra Dates.Outputs[Lookup No Match Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load Places"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{C4540101-C800-4136-886C-512BC29D623A}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load Places"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load Places\Carga de Lugares"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="Carga de Lugares"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT RestaurantId, theMonth, theYear, Country, Province, City,
+sum(amount) total, sum(views) views, sum(shares) shares FROM
+(
+SELECT RestaurantId, Country, Province, City, CONVERT(SMALLINT, DATEPART(month, date)) theMonth, DATENAME(month, date) TheMonthName,
+CONVERT(SMALLINT, DATEPART(year, date)) theYear, amount, Views, Shares FROM dbo.mongoData
+) general
+GROUP BY RestaurantId, Country, Province, City, general.theYear, general.theMonth
+ORDER BY RestaurantId</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Places\Carga de Lugares.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[RestaurantId]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[RestaurantId]"
+                      length="200"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[RestaurantId]"
+                      name="RestaurantId"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[theMonth]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[theMonth]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[theMonth]"
+                      name="theMonth"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[theYear]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[theYear]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[theYear]"
+                      name="theYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[Country]"
+                      length="60"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Province]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[Province]"
+                      length="60"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Province]"
+                      name="Province"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[City]"
+                      length="60"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[total]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[total]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[total]"
+                      name="total"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[views]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[views]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[views]"
+                      name="views"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[shares]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[shares]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[shares]"
+                      name="shares"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[RestaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      name="RestaurantId" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[theMonth]"
+                      dataType="i2"
+                      name="theMonth" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[theYear]"
+                      dataType="i2"
+                      name="theYear" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="60"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[Province]"
+                      dataType="wstr"
+                      length="60"
+                      name="Province" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="60"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[total]"
+                      dataType="cy"
+                      name="total" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[views]"
+                      dataType="i4"
+                      name="views" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].ExternalColumns[shares]"
+                      dataType="i4"
+                      name="shares" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[RestaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[RestaurantId]"
+                      name="RestaurantId" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[theMonth]"
+                      dataType="i2"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[theMonth]"
+                      name="theMonth" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[theYear]"
+                      dataType="i2"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[theYear]"
+                      name="theYear" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[Province]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[Province]"
+                      name="Province" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[total]"
+                      dataType="cy"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[total]"
+                      name="total" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[views]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[views]"
+                      name="views" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[shares]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[shares]"
+                      name="shares" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Places\Filtro"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Filtro"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT country, city, zone FROM dbo.data_locations</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (SELECT country, city, zone FROM dbo.data_locations) [refTable]
+where [refTable].[country] = ? and [refTable].[city] = ? and [refTable].[zone] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="country" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="city" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="zone" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Country]};#{Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Province]};#{Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[City]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Places\Filtro.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Places\Filtro.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Places\Filtro.Inputs[Lookup Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Country"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Country]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">country</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Places\Filtro.Inputs[Lookup Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="City"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[City]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">zone</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Places\Filtro.Inputs[Lookup Input].Columns[Province]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Province"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Province]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">city</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Places\Filtro.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Places\Filtro.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Places\Filtro.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Places\Filtro.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Places\Filtro.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Places\Filtro.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Places\Filtro.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Filtro.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Places\Filtro.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Filtro.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Places\Salva lugares"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+              name="Salva lugares"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The Destination database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."data_locations"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Places\Salva lugares.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="ADO NET Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[country]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Country]" />
+                    <inputColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].Columns[Province]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Province"
+                      externalMetadataColumnId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[city]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[Province]" />
+                    <inputColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="City"
+                      externalMetadataColumnId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[zone]"
+                      lineageId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output].Columns[City]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[locationId]"
+                      dataType="i8"
+                      name="locationId" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[country]"
+                      dataType="wstr"
+                      length="60"
+                      name="country" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[city]"
+                      dataType="wstr"
+                      length="60"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input].ExternalColumns[zone]"
+                      dataType="wstr"
+                      length="60"
+                      name="zone" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Places\Salva lugares.Outputs[ADO NET Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="ADO NET Destination Error Output"
+                  synchronousInputId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Places\Salva lugares.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Salva lugares.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Places\Salva lugares.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Places\Salva lugares.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load Places.Paths[ADO NET Source Output]"
+              endId="Package\Load Places\Filtro.Inputs[Lookup Input]"
+              name="ADO NET Source Output"
+              startId="Package\Load Places\Carga de Lugares.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Load Places.Paths[Lookup No Match Output]"
+              endId="Package\Load Places\Salva lugares.Inputs[ADO NET Destination Input]"
+              name="Lookup No Match Output"
+              startId="Package\Load Places\Filtro.Outputs[Lookup No Match Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Load_Excel_CSV"
       DTS:CreationName="Microsoft.Pipeline"
@@ -2085,6 +3225,990 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Save Advertaising"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{C54B2321-3247-4B03-975C-ABBA443B6500}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Save Advertaising"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Save Advertaising\Filtro Repetidos"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Filtro Repetidos"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT facts.restaurantId, dates.cYear, dates.cMonth FROM dbo.data_facts facts INNER JOIN dbo.data_dates dates ON dates.dateId = facts.dateId</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (SELECT facts.restaurantId, dates.cYear, dates.cMonth FROM dbo.data_facts facts INNER JOIN dbo.data_dates dates ON dates.dateId = facts.dateId) [refTable]
+where [refTable].[restaurantId] = ? and [refTable].[cMonth] = ? and [refTable].[cYear] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="restaurantId" dataType="DT_WSTR" length="200" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cYear" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cMonth" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[RestaurantId]};#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theMonth]};#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theYear]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Save Advertaising\Filtro Repetidos.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input].Columns[RestaurantId]"
+                      cachedDataType="wstr"
+                      cachedLength="200"
+                      cachedName="RestaurantId"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[RestaurantId]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">restaurantId</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input].Columns[theMonth]"
+                      cachedDataType="i2"
+                      cachedName="theMonth"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theMonth]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">cMonth</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input].Columns[theYear]"
+                      cachedDataType="i2"
+                      cachedName="theYear"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theYear]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">cYear</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Save Advertaising\Guardar Facts"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+              name="Guardar Facts"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="The Destination database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."data_facts"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Save Advertaising\Guardar Facts.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="ADO NET Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].Columns[RestaurantId]"
+                      cachedDataType="wstr"
+                      cachedLength="200"
+                      cachedName="RestaurantId"
+                      externalMetadataColumnId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[restaurantId]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[RestaurantId]" />
+                    <inputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].Columns[views]"
+                      cachedDataType="i4"
+                      cachedName="views"
+                      externalMetadataColumnId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[views]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[views]" />
+                    <inputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].Columns[shares]"
+                      cachedDataType="i4"
+                      cachedName="shares"
+                      externalMetadataColumnId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[shares]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[shares]" />
+                    <inputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].Columns[dateId]"
+                      cachedDataType="i8"
+                      cachedName="dateId"
+                      externalMetadataColumnId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[dateId]"
+                      lineageId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Match Output].Columns[dateId]" />
+                    <inputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].Columns[locationId]"
+                      cachedDataType="i8"
+                      cachedName="locationId"
+                      externalMetadataColumnId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[locationId]"
+                      lineageId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Match Output].Columns[locationId]" />
+                    <inputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].Columns[total]"
+                      cachedDataType="cy"
+                      cachedName="total"
+                      externalMetadataColumnId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[monto]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[total]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[restaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      name="restaurantId" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[monto]"
+                      dataType="numeric"
+                      name="monto"
+                      precision="19"
+                      scale="255" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[dateId]"
+                      dataType="i8"
+                      name="dateId" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[locationId]"
+                      dataType="i8"
+                      name="locationId" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[views]"
+                      dataType="i4"
+                      name="views" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input].ExternalColumns[shares]"
+                      dataType="i4"
+                      name="shares" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Save Advertaising\Guardar Facts.Outputs[ADO NET Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="ADO NET Destination Error Output"
+                  synchronousInputId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Guardar Facts.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Guardar Facts.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Guardar Facts.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Save Advertaising\Lee Info"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
+              name="Lee Info"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement used by the component to extract data."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT RestaurantId, theMonth, theYear, Country, Province, City,
+sum(amount) total, sum(views) views, sum(shares) shares FROM
+(
+SELECT RestaurantId, Country, Province, City, CONVERT(SMALLINT, DATEPART(month, date)) theMonth, DATENAME(month, date) TheMonthName,
+CONVERT(SMALLINT, DATEPART(year, date)) theYear, amount, Views, Shares FROM dbo.mongoData
+) general
+GROUP BY RestaurantId, Country, Province, City, general.theYear, general.theMonth
+ORDER BY RestaurantId</property>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether to allow non-string external columns to be implicitly converted to strings at the output columns."
+                  name="AllowImplicitStringConversion">true</property>
+                <property
+                  dataType="System.String"
+                  description="The Source database table name."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specify the mode to retrieve external column information"
+                  name="AccessMode"
+                  typeConverter="Microsoft.SqlServer.Dts.Pipeline.DataReaderSourceAdapter+EnumToStringConverter">2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.DataReaderSourceAdapter</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Save Advertaising\Lee Info.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa]"
+                  description="Managed connection manager"
+                  name="IDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output]"
+                  name="ADO NET Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[RestaurantId]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[RestaurantId]"
+                      length="200"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[RestaurantId]"
+                      name="RestaurantId"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theMonth]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[theMonth]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theMonth]"
+                      name="theMonth"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theYear]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[theYear]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theYear]"
+                      name="theYear"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[Country]"
+                      length="60"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Province]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[Province]"
+                      length="60"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Province]"
+                      name="Province"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[City]"
+                      length="60"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[total]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[total]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[total]"
+                      name="total"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[views]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[views]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[views]"
+                      name="views"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[shares]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[shares]"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[shares]"
+                      name="shares"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[RestaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      name="RestaurantId" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[theMonth]"
+                      dataType="i2"
+                      name="theMonth" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[theYear]"
+                      dataType="i2"
+                      name="theYear" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="60"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[Province]"
+                      dataType="wstr"
+                      length="60"
+                      name="Province" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="60"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[total]"
+                      dataType="cy"
+                      name="total" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[views]"
+                      dataType="i4"
+                      name="views" />
+                    <externalMetadataColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].ExternalColumns[shares]"
+                      dataType="i4"
+                      name="shares" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output]"
+                  isErrorOut="true"
+                  name="ADO NET Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[RestaurantId]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[RestaurantId]"
+                      name="RestaurantId" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[theMonth]"
+                      dataType="i2"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[theMonth]"
+                      name="theMonth" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[theYear]"
+                      dataType="i2"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[theYear]"
+                      name="theYear" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[Province]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[Province]"
+                      name="Province" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[total]"
+                      dataType="cy"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[total]"
+                      name="total" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[views]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[views]"
+                      name="views" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[shares]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[shares]"
+                      name="shares" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Save Advertaising\Seleccion Fecha"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Seleccion Fecha"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT dateId, cMonth, cYear from dbo.data_dates</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (SELECT dateId, cMonth, cYear from dbo.data_dates) [refTable]
+where [refTable].[cMonth] = ? and [refTable].[cYear] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="dateId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cMonth" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="cYear" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theMonth]};#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theYear]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Save Advertaising\Seleccion Fecha.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input].Columns[theMonth]"
+                      cachedDataType="i2"
+                      cachedName="theMonth"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theMonth]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">cMonth</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input].Columns[theYear]"
+                      cachedDataType="i2"
+                      cachedName="theYear"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[theYear]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">cYear</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Match Output].Columns[dateId]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Match Output].Columns[dateId]"
+                      name="dateId"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">dateId</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Save Advertaising\Seleccion Lugar"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Seleccion Lugar"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT locationId, country, city, zone FROM dbo.data_locations</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (SELECT locationId, country, city, zone FROM dbo.data_locations) [refTable]
+where [refTable].[country] = ? and [refTable].[city] = ? and [refTable].[zone] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="locationId" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="country" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="city" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="zone" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Country]};#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Province]};#{Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[City]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Save Advertaising\Seleccion Lugar.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.ChangeIt_Cubes.sa1]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Country"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Country]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">country</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input].Columns[Province]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Province"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[Province]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">city</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="City"
+                      lineageId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output].Columns[City]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">zone</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Match Output].Columns[locationId]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Match Output].Columns[locationId]"
+                      name="locationId"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">locationId</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Save Advertaising.Paths[ADO NET Source Output]"
+              endId="Package\Save Advertaising\Filtro Repetidos.Inputs[Lookup Input]"
+              name="ADO NET Source Output"
+              startId="Package\Save Advertaising\Lee Info.Outputs[ADO NET Source Output]" />
+            <path
+              refId="Package\Save Advertaising.Paths[Lookup Match Output]"
+              endId="Package\Save Advertaising\Seleccion Lugar.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Save Advertaising\Seleccion Fecha.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Save Advertaising.Paths[Lookup Match Output1]"
+              endId="Package\Save Advertaising\Guardar Facts.Inputs[ADO NET Destination Input]"
+              name="Lookup Match Output"
+              startId="Package\Save Advertaising\Seleccion Lugar.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Save Advertaising.Paths[Lookup No Match Output]"
+              endId="Package\Save Advertaising\Seleccion Fecha.Inputs[Lookup Input]"
+              name="Lookup No Match Output"
+              startId="Package\Save Advertaising\Filtro Repetidos.Outputs[Lookup No Match Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -2095,6 +4219,30 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Load_MongoDB_Collection" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{3844FDE6-0510-47A3-947A-78477C76AED5}"
+      DTS:From="Package\Load_MongoDB_Collection"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Load Fechas" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{4BBFDBAA-79D3-4766-BBB5-0ECF2FABA009}"
+      DTS:From="Package\Load Fechas"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Load Places" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{3FB2CF9B-7149-4921-838A-319670997A43}"
+      DTS:From="Package\Load Places"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Save Advertaising" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -2107,7 +4255,15 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="137,42"
+          Id="Package\Load Fechas"
+          TopLeft="322,226" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\Load Places"
+          TopLeft="330,311" />
         <NodeLayout
           Size="156,42"
           Id="Package\Load_Excel_CSV"
@@ -2116,6 +4272,10 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
           Size="204,42"
           Id="Package\Load_MongoDB_Collection"
           TopLeft="295,145" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Save Advertaising"
+          TopLeft="312,406" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="398,75">
@@ -2138,9 +4298,289 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="393.75,187">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="393.75,268">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43"
+              Start="0,0"
+              End="0,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="395.25,353">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\Load Fechas">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Load Fechas\Lectura Dates"
+          TopLeft="273,11" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Load Fechas\Filtra Dates"
+          TopLeft="276,105" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Load Fechas\Insert new dates"
+          TopLeft="269,237" />
+        <EdgeLayout
+          Id="Package\Load Fechas.Paths[Lookup No Match Output]"
+          TopLeft="345.25,147">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,90"
+              Start="0,0"
+              End="0,82.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,82.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.80638671875,35.4453125,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Fechas.Paths[ADO NET Source Output]"
+          TopLeft="343.75,53">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fechas\Lectura Dates">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fechas\Filtra Dates">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Fechas\Insert new dates">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Load Places">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="103,42"
+          Id="Package\Load Places\Filtro"
+          TopLeft="304,110" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Load Places\Carga de Lugares"
+          TopLeft="278,25" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Load Places\Salva lugares"
+          TopLeft="285,208" />
+        <EdgeLayout
+          Id="Package\Load Places.Paths[Lookup No Match Output]"
+          TopLeft="355.5,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56"
+              Start="0,0"
+              End="0,48.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-55.80638671875,18.4453125,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Places.Paths[ADO NET Source Output]"
+          TopLeft="357,67">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43"
+              Start="0,0"
+              End="0,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Places\Filtro">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Places\Carga de Lugares">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Places\Salva lugares">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Load_Excel_CSV">
     <LayoutInfo>
@@ -2332,7 +4772,9 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2402,7 +4844,9 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2454,6 +4898,249 @@ where [refTable].[campaignId] = ? and [refTable].[restaurantId] = ? and [refTabl
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Save Advertaising">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="118,42"
+          Id="Package\Save Advertaising\Lee Info"
+          TopLeft="309,49" />
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Save Advertaising\Filtro Repetidos"
+          TopLeft="288,164" />
+        <EdgeLayout
+          Id="Package\Save Advertaising.Paths[ADO NET Source Output]"
+          TopLeft="366,91">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,73"
+              Start="0,0"
+              End="0,65.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Save Advertaising\Seleccion Fecha"
+          TopLeft="569,242" />
+        <EdgeLayout
+          Id="Package\Save Advertaising.Paths[Lookup No Match Output]"
+          TopLeft="364,206">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="282,36"
+              Start="0,0"
+              End="282,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14"
+                    Point2="0,18"
+                    Point3="4,18" />
+                  <mssgle:LineSegment
+                    End="278,18" />
+                  <mssgle:CubicBezierSegment
+                    Point1="278,18"
+                    Point2="282,18"
+                    Point3="282,22" />
+                  <mssgle:LineSegment
+                    End="282,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="85.19361328125,23,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Save Advertaising\Seleccion Lugar"
+          TopLeft="359,307" />
+        <EdgeLayout
+          Id="Package\Save Advertaising.Paths[Lookup Match Output]"
+          TopLeft="646,284">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-210.5,23"
+              Start="0,0"
+              End="-210.5,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.5"
+                    Point2="0,11.5"
+                    Point3="-4,11.5" />
+                  <mssgle:LineSegment
+                    End="-206.5,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-206.5,11.5"
+                    Point2="-210.5,11.5"
+                    Point3="-210.5,15.5" />
+                  <mssgle:LineSegment
+                    End="-210.5,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-153.44138671875,16.5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Save Advertaising\Guardar Facts"
+          TopLeft="295,396" />
+        <EdgeLayout
+          Id="Package\Save Advertaising.Paths[Lookup Match Output1]"
+          TopLeft="435.5,349">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-68,47"
+              Start="0,0"
+              End="-68,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.5"
+                    Point2="0,23.5"
+                    Point3="-4,23.5" />
+                  <mssgle:LineSegment
+                    End="-64,23.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-64,23.5"
+                    Point2="-68,23.5"
+                    Point3="-68,27.5" />
+                  <mssgle:LineSegment
+                    End="-68,39.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-82.19138671875,28.5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Save Advertaising\Filtro Repetidos">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Save Advertaising\Lee Info">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Save Advertaising\Seleccion Fecha">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Save Advertaising\Seleccion Lugar">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Save Advertaising\Guardar Facts">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
